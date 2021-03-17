@@ -3,6 +3,25 @@ body{
     font-family: 'Noto Sans KR';
 }
 
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+
+}
+
+
+
 
 body{
     color:blueviolet;
@@ -19,9 +38,5 @@ h2{
 #lib-title{
     color:rgb(8, 1, 7);
 }
-
-.para{
-    color: rgb(230, 109, 115);
-} 
 
 
