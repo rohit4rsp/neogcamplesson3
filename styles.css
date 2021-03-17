@@ -4,7 +4,11 @@ body{
 }
 
 :root{
-    --primary-color:#065F46;
+    --primary-color:#f3f0f1;
+}
+
+hr{
+    margin: 2rem 0rem;
 }
 
 
@@ -29,7 +33,7 @@ body{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background-color: yellowgreen;
+    background-color: rgb(7, 94, 116);
     border-radius: 0.3rem;
     border:1px solid var(--primary-color)
 }
