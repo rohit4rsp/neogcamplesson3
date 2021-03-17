@@ -3,6 +3,12 @@ body{
     font-family: 'Noto Sans KR';
 }
 
+:root{
+    --primary-color:#065F46;
+}
+
+
+
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -19,6 +25,54 @@ body{
     margin: auto;
 
 }
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: yellowgreen;
+    border-radius: 0.3rem;
+    border:1px solid var(--primary-color)
+}
+
+.primary-link{
+    color:var(--primary-color);
+}
+.secondary-link{
+    color:var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
