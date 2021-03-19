@@ -35,7 +35,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background-color: rgb(7, 94, 116);
+    background-color: rgb(130, 174, 185);
     border-radius: 0.3rem;
     border:1px solid var(--primary-color)
 }
@@ -49,7 +49,7 @@ hr{
 
   /**  lists  **/
 
-.non-bullet{
+.list.non-bullet{
     list-style: none;
 }
 
@@ -57,6 +57,19 @@ hr{
     display:inline;
     padding: 0rem 0.5rem;
 }
+
+
+  /**navigation**/
+
+.navigation{
+    background-color: rgb(246, 247, 248);
+    color: rgb(17, 2, 17);
+}  
+
+.navigation.link{
+    color:chocolate;
+}
+
 
 
 
