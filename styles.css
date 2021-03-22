@@ -36,17 +36,22 @@ hr {
 .link {
     text-decoration: underline;
     padding: 0.5rem 1rem;
+    color: rgb(236, 235, 243);
+
+}
+
+.primary-link {
+    color: var(--primary-color);
     background-color: rgb(3, 62, 77);
     border-radius: 0.3rem;
     border: 1px solid var(--primary-color)
 }
 
-.primary-link {
-    color: var(--primary-color);
-}
-
 .secondary-link {
     color: var(--primary-color);
+    background-color: rgb(3, 62, 77);
+    border-radius: 0.3rem;
+    border: 1px solid var(--primary-color)
 }
 
 /**  lists  **/
@@ -77,6 +82,9 @@ hr {
 
 .navigation .link {
     color: rgb(240, 237, 236);
+    background-color: rgb(3, 62, 77);
+    border-radius: 0.3rem;
+    border: 1px solid var(--primary-color)
 }
 
 .navigation .nav-pills {
@@ -92,7 +100,7 @@ hr {
 
 .hero {
     padding: 2rem;
-    
+
 }
 
 .hero .hero-img {
@@ -117,18 +125,31 @@ hr {
     text-align: center;
 }
 
-.ow{
+.ow {
     background-color: #F3F4F6;
 }
 
-.section{
+.section {
     padding: 2rem;
 }
 
+/**  footers  **/
 
+.social-links.non-bullet {
+    list-style: none;
+}
 
+.footer {
+    padding: 2rem 0rem;
+    background-color: mediumslateblue;
+    text-align: center;
+    color: rgb(17, 2, 17);
+    border-top-right-radius:1rem ;
+}
 
-
+.footer ul{
+    scroll-padding-inline-start: 0px;
+}
 
 
 
