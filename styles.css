@@ -86,6 +86,27 @@ hr{
     font-weight: bold;
 }
 
+  /**header**/
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+}  
+
+.hero .hero-img{
+    min-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding: 1rem;
+    color: #041f53;
+}
+
+.hero .hero-heading .heading-inverted{
+    color:brown;
+}
 
 
 
