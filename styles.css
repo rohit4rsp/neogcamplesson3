@@ -112,6 +112,7 @@ hr {
 .hero .hero-heading {
     padding: 1rem;
     color: #041f53;
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -179,6 +180,7 @@ hr {
 
 body {
     color: rgb(4, 1, 7);
+    margin: 0px;
 }
 
 h1 {
