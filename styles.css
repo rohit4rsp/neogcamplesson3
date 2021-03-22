@@ -37,6 +37,9 @@ hr {
     text-decoration: underline;
     padding: 0.5rem 1rem;
     color: rgb(236, 235, 243);
+    box-sizing: border-box;
+    /* margin-top:1rem;
+    margin-bottom: 1rem; */
 
 }
 
@@ -48,8 +51,7 @@ hr {
 }
 
 .secondary-link {
-    color: var(--primary-color);
-    background-color: rgb(3, 62, 77);
+    color: cornflowerblue;
     border-radius: 0.3rem;
     border: 1px solid var(--primary-color)
 }
@@ -146,6 +148,11 @@ hr {
     text-align: center;
     color: rgb(17, 2, 17);
     border-top-right-radius:1rem ;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
