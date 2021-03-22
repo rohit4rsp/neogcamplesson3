@@ -33,9 +33,9 @@ hr{
 
   /**  links  **/
 .link{
-    text-decoration: none;
+    text-decoration:underline;
     padding: 0.5rem 1rem;
-    background-color: rgb(130, 174, 185);
+    background-color: rgb(3, 62, 77);
     border-radius: 0.3rem;
     border:1px solid var(--primary-color)
 }
@@ -62,13 +62,30 @@ hr{
   /**navigation**/
 
 .navigation{
-    background-color: rgb(246, 247, 248);
+    background-color: mediumslateblue;
     color: rgb(17, 2, 17);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }  
 
-.navigation.link{
-    color:chocolate;
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.2rem;
 }
+
+.navigation .link{
+    color:rgb(240, 237, 236);
+}
+
+.navigation .nav-pills{
+    text-align: right;
+
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
 
 
 
@@ -104,7 +121,7 @@ hr{
 
 
 body{
-    color:blueviolet;
+    color:rgb(4, 1, 7);
 }
 
 h1{
@@ -117,6 +134,9 @@ h2{
 
 #lib-title{
     color:rgb(8, 1, 7);
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
 }
 
 
