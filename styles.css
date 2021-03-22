@@ -47,13 +47,13 @@ hr {
     color: var(--primary-color);
     background-color: rgb(3, 62, 77);
     border-radius: 0.3rem;
-    border: 1px solid var(--primary-color)
+    border: 1px solid var(--primary-color);
 }
 
 .secondary-link {
     color: cornflowerblue;
     border-radius: 0.3rem;
-    border: 1px solid var(--primary-color)
+    border: 1px solid blueviolet;
 }
 
 /**  lists  **/
