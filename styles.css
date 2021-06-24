@@ -51,7 +51,8 @@ hr {
 }
 
 .secondary-link {
-    color: cornflowerblue;
+    color: rgb(243, 244, 247);
+    background-color: rgb(3, 62, 77);
     border-radius: 0.3rem;
     border: 1px solid blueviolet;
 }
@@ -109,9 +110,13 @@ hr {
     min-width: 350px;
     display: block;
     margin: auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 .hero .hero-heading {
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
     padding: 1rem;
     color: #041f53;
     text-align: center;
